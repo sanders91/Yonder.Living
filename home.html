@@ -1,0 +1,86 @@
+<style>
+h1 {
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+}
+</style>  
+
+<h1>Home</h1>
+
+{% if theme.image_sets.slideshow.size > 0 %}
+  <div class="flexslider">
+    <ul class="slides">
+      <a href="/category/shop-all">
+      {% for image in theme.image_sets.slideshow %}
+      <li><img src="{{ image.url }}"></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+<!-- IMAGE CONTAINER -->
+
+<div id="preview_container">
+<div class="preview">
+
+    <a href="http://www.yonderliving.com/products?utf8=✓&search=blanket">
+        <img width="600" height="400" title="" src="http://s1.postimg.org/qk96fyrhb/yonder_pompom_blanket_homepage.jpg"></img>
+    </a>
+  
+  <div style=" background:pink; margin-top:25px;" width="600px" height="300px"> 
+    <a href="http://yonderliving.blogspot.co.uk">
+        <img width="600" height="275" title="" src="http://s30.postimg.org/9jm17dq7l/yonder_blog_homepage.jpg"></img>
+    </a>
+</div>
+</div>
+
+<div class="preview-right">
+  
+  <a href="http://www.yonderliving.com/category/shop-all">
+        <img width="325" height="700" title="" src="http://s12.postimg.org/9yjum7zgd/yonder_kilim_cushion_homepage.jpg"></img>
+    </a>
+
+</div>
+</div>
+
+<!-- INSTAGRAM -->
+
+<div class="canvas-insta">
+  <div class="instagram" style="vertical-align:middle; height:35px; padding-bottom:5px;">
+    
+    <h2 style="float:left; margin-right:20px; vertical-align:bottom; margin-top:10px; text-transform:uppercase;">@Yonder.Living</h2> 
+    <a href="http://instagram.com/yonder.living"><img alt="FOLLOW US ON INSTAGRAM" src="http://i61.tinypic.com/famr1c.jpg" class="instagram-img"></img></a>
+     
+      </div>
+<div class="instagram-view clearer">
+<iframe src="http://snapwidget.com/sc/?u=eW9uZGVyLmxpdmluZ3xpbnwxNTB8M3wzfHxub3w1fGZhZGVPdXR8b25TdGFydHx5ZXN8bm8=&ve=270914" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" 
+scrolling="no" style="border:none; overflow:hidden; width:950px; height:150px"></iframe>  
+  </div>
+<hr width="950px" align="center" style="background-color:#ccc; padding:2px; margin-top:15px;"></hr>
+</div>
+
+
+<!-- SQUARES -->
+<div id="preview_container2">
+  <div class="square">
+    <a href="/product/medina-basket">
+  <img src="http://s22.postimg.org/8c402929t/medina_shopper_basket.jpg" width="950px" height="300px">
+   </a>
+  </div>
+    <div class="square">
+      <a href="/yonder-club">
+  <img src="http://cdn1.iii.co.uk.s3.amazonaws.com/pics/11001829_1554964274790520_2774603502560828233_n.jpg" width="950px" height="300px">
+   </a>
+  </div>
+    <div class="square-right">
+      <a href="http://www.yonderliving.com/product/neon-aztec-sahara-pot">
+  <img src="http://s13.postimg.org/7sbfvcd2v/yonder_sahara_pot_homepage.jpg" width="950px" height="300px">
+   </a>
+  </div>
+</div>
+
+
+
+
+
